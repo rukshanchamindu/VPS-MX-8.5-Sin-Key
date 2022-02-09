@@ -1197,4 +1197,4 @@ case ${selection} in
 0)cd $HOME && exit 0;; 
 esac 
 msg -ne "Enter Para Continuar" && read enter 
-${SCPdir}/menu: File name too long
+${SCPdir}/menu
