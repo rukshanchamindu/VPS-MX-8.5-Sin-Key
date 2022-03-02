@@ -169,7 +169,7 @@ install_paketes() {
 install_paketes
 mkdir /etc/VPS-MX >/dev/null 2>&1
 
-cd /etc/VPS-MX
+cd /etc/
 wget https://raw.githubusercontent.com/rukshanchamindu/VPS-MX-ENGLISH/main/Files/VPS-MX.zip >/dev/null 2>&1
 unzip VPS-MX.zip >/dev/null 2>&1
 rm -rf VPS-MX.zip
