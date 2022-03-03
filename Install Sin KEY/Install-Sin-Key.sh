@@ -242,6 +242,8 @@ wget -O /bin/rebootnb https://raw.githubusercontent.com/rukshanchamindu/VPS-MX-E
 chmod +x /bin/rebootnb
 wget -O /bin/resetsshdrop https://raw.githubusercontent.com/rukshanchamindu/VPS-MX-ENGLISH/main/Files/resetsshdrop &>/dev/null
 chmod +x /bin/resetsshdrop
+wget -O /bin/monitor.sh https://raw.githubusercontent.com/rukshanchamindu/VPS-MX-ENGLISH/main/Files/monitor.sh &> /dev/null
+chmod +x /bin/monitor.sh
 wget -O /etc/versin_script_new https://raw.githubusercontent.com/rukshanchamindu/VPS-MX-ENGLISH/main/Files/Version &>/dev/null
 grep -v "^PasswordAuthentication" /etc/ssh/sshd_config >/tmp/passlogin && mv /tmp/passlogin /etc/ssh/sshd_config
 echo "PasswordAuthentication yes" >>/etc/ssh/sshd_config
