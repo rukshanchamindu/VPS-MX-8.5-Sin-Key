@@ -56,7 +56,8 @@ install_paketes() {
   echo -e "  \033[41m    -- INSTALLATION OF PACKAGES FOR VPS-MX --    \e[49m"
   echo -e "\033[97m"
   msg -bar
-  echo -e "         may take a few minutes "
+  echo -e "         Installing, this may take a few minutes... "
+  msg -bar
   #grep
   apt-get install netcat -y &>/dev/null
   apt-get install netpipes -y &>/dev/null
